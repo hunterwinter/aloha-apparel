@@ -1,4 +1,5 @@
 # aloha-apparel
+![screen shot 2016-06-13 at 12 36 23 am](https://cloud.githubusercontent.com/assets/16890729/16000133/3225a928-30ff-11e6-9dae-616cc74c2abf.png)
 
 ##Project Description
 
