@@ -1,108 +1,100 @@
-@font-face {
-    font-family: 'Playfair Display Web';
-    src: url('../fonts/playfairdisplay-regular-webfont.eot');
-    src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-regular-webfont.woff') format('woff'),
-         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+@font-face{
+    font-family: 'ralewaymedium_italic';
+    src: url('../assets/fonts/webfontkit-raleway/raleway-mediumitalic-webfont.eot');
+    src: url('../assets/fonts/webfontkit-raleway/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-raleway/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-raleway/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-@font-face {
-    font-family: 'Playfair Display Web';
-    src: url('../fonts/playfairdisplay-italic-webfont.eot');
-    src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-italic-webfont.woff') format('woff'),
-         url('../fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-@font-face {
-    font-family: 'Playfair Display Web';
-    src: url('../fonts/playfairdisplay-bold-webfont.eot');
-    src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff'),
-         url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Playfair Display Web';
-    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
-    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-
-}
-
-/* Raleway */
-
-@font-face {
-    font-family: 'Raleway Web';
-    src: url('s-light-webfont.eot');
-    src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-light-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-light-webfont.woff') format('woff'),
-         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+@font-face{
+    font-family: 'ralewaymedium';
+    src: url('../assets/fonts/webfontkit-raleway/raleway-medium-webfont.eot');
+    src: url('../assets/fonts/webfontkit-raleway/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-medium-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-raleway/raleway-medium-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-raleway/raleway-medium-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-@font-face {
-    font-family: 'Raleway Web';
-    src: url('../fonts/raleway-lightitalic-webfont.eot');
-    src: url('../fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-lightitalic-webfont.woff') format('woff'),
-         url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+@font-face{
+    font-family: 'ralewaylight_italic';
+    src: url('../assets/fonts/webfontkit-raleway/raleway-lightitalic-webfont.eot');
+    src: url('../assets/fonts/webfontkit-raleway/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-lightitalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-raleway/raleway-lightitalic-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-raleway/raleway-lightitalic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
     font-weight: normal;
     font-style: italic;
-
 }
 
-@font-face {
-    font-family: 'Raleway Web';
-    src: url('../fonts/raleway-medium-webfont.eot');
-    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-medium-webfont.woff') format('woff'),
-         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
-    font-weight: bold;
+@font-face{
+    font-family: 'ralewaylight';
+    src: url('../assets/fonts/webfontkit-raleway/raleway-light-webfont.eot');
+    src: url('../assets/fonts/webfontkit-raleway/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-raleway/raleway-light-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-raleway/raleway-light-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-raleway/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
     font-style: normal;
-
 }
 
-@font-face {
-    font-family: 'Raleway Web';
-    src: url('../fonts/raleway-mediumitalic-webfont.eot');
-    src: url('../fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-mediumitalic-webfont.woff') format('woff'),
-         url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+@font-face{
+    font-family: 'playfair_displayregular';
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-regular-webfont.eot');
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'playfair_displayitalic';
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-italic-webfont.eot');
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'playfair_displaybold_italic';
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.eot');
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: bold;
     font-style: italic;
-
 }
+
+@font-face{
+    font-family: 'playfair_displaybold';
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-bold-webfont.eot');
+    src: url('../assets/fonts/webfontkit-playfair/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/webfontkit-playfair/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* content */
 
 .clearfix:before,
 .clearfix:after{
@@ -121,7 +113,7 @@ input,
 select,
 textarea {
   color: #2d2d2d;
-  font-family: 'Raleway web', sans-serif;
+  font-family: 'ralewaymedium', sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: normal;
@@ -129,7 +121,7 @@ textarea {
 }
 
 h1, h2, h3 {
-   font-family: 'Playfair Display Web', serif;
+   font-family: 'playfair_displayregular', serif;
    line-height: 1;
 }
 
@@ -153,6 +145,8 @@ a:hover {
    color: #b64036;
 }
 
+/* header */
+
  .site-header {
    background-color: white;
    border-bottom: 1px solid #d7d7d7;
@@ -170,6 +164,8 @@ a:hover {
    justify-content: space-between;
    padding-bottom: .5rem;
    padding-top: 1rem;
+   max-width: 96%;
+   margin: 0 auto;
 }
 
 .logo {
@@ -234,6 +230,7 @@ a:hover {
    height: 82px;
    margin: -82px 0 0;
 }
+
 /*banner*/
 
 .hero{ 
@@ -268,22 +265,22 @@ a:hover {
 	padding-bottom: 0;
 	color: white;
 	position: relative;
-	font-family: playfair_displayregular;
+	font-family: 'playfair_displayregular', sans-serif;
 	font-size: 2.25rem;
 	margin: 0;
 }
 
 .categories{
-	font-family: playfair_displayitalic, sans-serif;
+	font-family: 'playfair_displayitalic', sans-serif;
 	text-align: center;
 	font-size: 2.1rem;
-	margin: 0.7em 0 0 0;
+	margin: 0.7em 0 1em 0;
 	color: #2d2d2d;
 	padding-bottom: 0;
 }
 
 .bold{
-	font-family: playfair_displaybold;
+	font-family: 'playfair_displaybold', sans-serif;
 	display: inline-block;
 	font-size: 2.1rem;
 	margin: 0.8em 0 0 0;
@@ -295,110 +292,134 @@ a:hover {
 	margin-top: 1.4em;
 }
 
-/*fluid images that still need work*/
-
- .grid {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  max-width: 400px;
+.intro {
+	padding: 4rem;
 }
 
-.rec:before, .sq:before {
-  content: " ";
-  float: left;
+/* product grid */
+
+.products {
+   padding: 0;
 }
 
-.sq::before {
-  padding-top: 100%;
+.product-categories {
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
 }
 
-.rec::before {
-  padding-top: 50%;
+.category-wide,
+.category-square {
+   border: 4px solid white;
+   position: relative;
 }
 
-.rec {
-  display: flex;
-  flex: 2 0 100%;
-  max-width: 100%;
-  border: 4px solid #FFF;
+.category-wide img:before,
+.category-square img:before {
+   background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% );
 }
 
-.sq {
-  display: flex;
-  flex: 1 0 100%;
-  max-width: 50%;
-  border: 4px solid #FFF;
+.category-wide {
+   border-left: 0;
+   border-right: 0;
+   flex: 2 0 100%;
+   max-width: 100%;
 }
 
-.therectangle, .thesquare {
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  margin: 0 auto;
-  align-self: center;
+.category-square {
+   flex: 1 0 50%;
+   max-width: 49%;
 }
 
-.therectangle a, .thesquare a {
-  color: #FFF;
-  text-decoration: none;
-  font-size: 2.5rem;
-  font-weight: bold;
+.category-square:nth-child(even) {
+   border-left: 0;
 }
 
-.therectangle a:hover, .thesquare a:hover {
-  color: #f5ebc6;
+.category-square:nth-child(odd) {
+   border-right: 0;
 }
 
-.mens {
-  background:
-        linear-gradient( to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%),
-        url('../assets/images/mens-category.jpg') no-repeat center center;
-  background-size: cover, cover;
-  border-left: 0;
+.category-wide:before,
+.category-square:before {
+   content: '';
+   float: left;
 }
 
-.trends {
-  background:
-        linear-gradient( to bottom, rgba(0 ,0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%),
-        url('../assets/images/trends-category.jpg') no-repeat center center;
-  background-size: cover, cover;
-  border-left: 0;
+.category-wide:before {
+   padding-top: 50%;
 }
 
-.glasses {
-  background:
-        linear-gradient( to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%),
-        url('../assets/images/glasses-category.jpg') no-repeat center center;
-  background-size: cover, cover;
-  border-right: 0;
+.category-square:before {
+   padding-top: 100%;
 }
 
-.sale {
-  background:
-        linear-gradient( to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%),
-        url('../assets/images/sale-category.jpg') no-repeat center center;
-  background-size: cover, cover;
-  border-left: 0;
+.category-name {
+   color: white;
+   font-family: 'Raleway Web', sans-serif;
+   font-size: 1.6rem;
+   font-weight: bold;
+   height: auto;
+   left: 50%;
+   line-height: 1;
+   position: absolute;
+   text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+   text-transform: uppercase;
+   top: 50%;
+   transform: translate(-50%, -50%);
 }
 
-.bags {
-  background:
-        linear-gradient( to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%),
-        url('../assets/images/bags-category.jpg') no-repeat center center;
-  background-size: cover, cover;
-  border-right: 0;
+.category-name a {
+   color: white;
+   text-decoration: none;
 }
 
-.womens {
-  background:
-        linear-gradient( to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%),
-        url('../assets/images/womens-category.jpg') no-repeat center center;
-  background-size: cover, cover;
-  border-left: 0;
+.category-name a:hover {
+   color: #f5ebc6;
 }
 
-/**/
+.category-wide.mens {
+   background:
+      linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+      url('../assets/images/mens-category.jpg') no-repeat center center;
+   background-size: cover, cover;
+}
+
+.category-square.trends {
+   background:
+      linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+      url('../assets/images/trends-category.jpg') no-repeat center center;
+   background-size: cover, cover;
+}
+
+.category-square.glasses {
+   background:
+      linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+      url('../assets/images/glasses-category.jpg') no-repeat center center;
+   background-size: cover, cover;
+}
+
+.category-square.sale {
+   background:
+      linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+      url('../assets/images/sale-category.jpg') no-repeat center center;
+   background-size: cover, cover;
+}
+
+.category-square.bags {
+   background:
+      linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+      url('../assets/images/bags-category.jpg') no-repeat center center;
+   background-size: cover, cover;
+}
+
+.category-wide.womens {
+   background:
+      linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+      url('../assets/images/womens-category.jpg') no-repeat center center;
+   background-size: cover, cover;
+}
+
+/* featured products & bx-slider */
 
 .bx-clone {
   display: none;
@@ -413,7 +434,7 @@ a:hover {
 }
 
 .craftdescribe{
-	font-family: ralewaylight, times;
+	font-family: 'ralewaylight', times;
 	font-size: 1rem;
 	text-align: center;
 	color: #2d2d2d;
@@ -433,13 +454,13 @@ a:hover {
 
 .buyit{
 	font-size: 0.7rem;
-	font-family: ralewaymedium, times;
+	font-family: 'ralewaymedium', times;
 	color: #969696;
 	text-transform: uppercase;
 }
 
 .price{
-	font-family: ralewaymedium;
+	font-family: 'ralewaymedium';
 	font-size: 0.9rem;
 	text-align: center;
 	color: #969696;
@@ -452,12 +473,14 @@ a:hover {
 }
 
 .itemdescribe{
-	font-family: playfair_displayregular, sans-serif;
+	font-family: 'playfair_displayregular', sans-serif;
 	font-size: 1.4rem;
 	color: #e2574c;
 	padding: 0;
 	margin: 0;
 }
+
+/* updates form */
 
 .ocean{ 
 	background: 
@@ -469,7 +492,7 @@ a:hover {
 }
 
 [type="email"]{
-	height: 2.5em;
+	height: 3em;
 	width: 80%;
 	border: 1px;
 	border-color: #d7d7d7;
@@ -480,7 +503,7 @@ a:hover {
 }
 
 [placeholder="Your Email"]{
-	font-family: playfair_displayregular, sans-serif;
+	font-family: 'playfair_displayregular', sans-serif;
 	font-size: 1rem;
 	color: #d7d7d7;
 	padding-left: 1.5em;
@@ -489,8 +512,8 @@ a:hover {
 [type="submit"]{
 	float: right;
 	background-color: #e2574c;
-	right: 10%;
-	margin-top: 1.25em;
+	right: 7.5%;
+    margin-top: 1.1em;
 	padding: 0.5em 1.5em 0.5em 1.5em;
 	border: 1px;
 	border-radius: 2em 2em 2em 2em;
@@ -498,7 +521,7 @@ a:hover {
 }
 
 [value="Subscribe"]{
-	font-family: ralewaylight, times;
+	font-family: 'ralewaylight', times;
 	color: white;
 	font-size: 1rem;
 }
@@ -516,11 +539,19 @@ a:hover {
 }
 
 .updates{
-	font-family: ralewaylight, sans-serif;
-	font-size: 0.8rem;
+	font-family: 'ralewaylight', sans-serif;
+	font-size: 1.15rem;
 	text-align: center;
 	color: white;
-	margin-top: 1em;
+	width: 100%;
+    margin: 1em auto;
+}
+
+/* footer */
+
+.containment {
+	display: flex;
+	justify-content: space-between;
 }
 
 .left{
@@ -532,7 +563,7 @@ i{
 }
 
 .footnote{
-	font-family: playfair_displayregular, times;
+	font-family: 'playfair_displayregular', times;
 	font-size: 0.9rem;
 	color: white; 
 	text-align: center;
@@ -562,7 +593,7 @@ i{
 .black{
 	background-color: #242424;
 	padding-top: 0em;
-	max-width: 100%;
+	width: 100%;
 	margin-top: 0.5em;
 }
 
@@ -584,205 +615,256 @@ i{
 
 @media screen and (min-width: 600px){
 
-html{
-	font-size: 16px;
-/*base font-size*/
-}
+/* content change */
 
-/* header */
-.site-header {
-  flex-wrap: nowrap;
-}
+	html{
+		font-size: 16px;
+	}
 
-.main-navigation ul {
-  border-top: 0;
-  padding-top: 0;
-}
+	/* header */
+	.site-header {
+	  flex-wrap: nowrap;
+	}
 
-.logo {
-  order: 1;
-  flex-basis: 20%;
-}
+	.main-navigation ul {
+	  border-top: 0;
+	  padding-top: 0;
+	}
 
-.logo img {
-  max-width: 120px;
-}
+	.logo {
+	  order: 1;
+	  flex-basis: 20%;
+	}
 
-.cart {
-  flex-basis: 20%;
-  order: 3;
-  position: relative;
-  width: 48px;
-}
+	.logo img {
+	  max-width: 120px;
+	}
 
-.total-items {
-  font-size: .8rem;
-  padding-top: 3px;
-  right: -3px;
-  top: -3px;
-}
+	.cart {
+	  flex-basis: 20%;
+	  order: 3;
+	  position: relative;
+	  width: 48px;
+	}
+	/* nav */
 
-.main-navigation {
-  flex-basis: 60%;
-  order: 2;
-}
+	.listnav ul {
+	    border: 0;
+	    padding: 0;
+	}
 
-.main-navigation li {
-  font-size: .9rem;
-  margin: 0 .5rem;
-}
+	.listnav {
+	    align-items: flex-start;
+	    flex: 0 1 auto;
+	}
 
-.banner {
-	margin-top: 83px;
-}
+	.listnav li {
+	    font-size: 2rem;
+	    margin: 0 .3rem
+	}
 
-/*footer*/ 
+	.wrapping{
+		width: 100%;
+		margin: 0 auto;
+	}
 
-footer{
-	width:100%;
-	height:300px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+	.total-items {
+	  font-size: .8rem;
+	  padding-top: 3px;
+	  right: -3px;
+	  top: -3px;
+	}
 
-.footnote{
-	padding: 0;
-	margin: 0;
-}
+	.main-navigation {
+	  flex-basis: 60%;
+	  order: 2;
+	}
 
-.left{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	align-items:flex-end;
-	justify-content: flex-end;
-	flex-direction: column;
-}
+	.main-navigation li {
+	  font-size: .9rem;
+	  margin: 0 .5rem;
+	}
 
-.none{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	alignt-items: flex-end;
-	justify-content: flex-end;
-	flex-direction: column;
-}
+	/* hero image */
 
-.hide{
-	display: inline-block;
-}
+	.banner {
+		margin-top: 83px;
+	}
 
-/* nav */
+	/* Products */
 
-.listnav ul {
-    border: 0;
-    padding: 0;
-}
+	.category-wide {
+	  flex-basis: 48.8%;
+	}
 
-.listnav {
-    align-items: flex-start;
-    flex: 0 1 auto;
-}
+	.category-square {
+	  flex-basis: 24.05%;
+	}
 
-.listnav li {
-    font-size: 2rem;
-    margin: 0 .3rem
-}
+	.category-wide:first-child,
+	.category-square:nth-child(5) {
+	  border-left: 0;
+	  border-right: 4px solid white;
+	}
 
-.wrapping{
-	width: 60%;
-	margin: 0 auto;
-}
+	.category-square:nth-child(2),
+	.category-square:nth-child(5),
+	.category-wide:last-child {
+	  border-left: 4px solid white;
+	}
 
-.craftdescribe{
-	font-size: 1.2rem;
-}
+	.category-square:nth-child(3),
+	.category-wide:last-child {
+	  border-right: 0;
+	}
 
-.grid{
-	max-width: 600px;
-}
+	.category-name {
+	  font-size: 1.8rem;
+	}
 
-.rec {
-    flex-basis: 50%;
-}
+	/* updates form */
 
-.sq {
-    flex-basis: 25%;
-}
+	.updates {
+		width: 75%;
+	}
 
-.trends, .bags, .womens {
-    border: 4px solid #FFF;
-}
+	/*footer*/ 
 
-.womens {
-    border-right: 0;
-}
+	footer{
+		width:100%;
+		height:300px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 
-.bx-clone {
-    display: inline-block;
-  }
+	.footnote{
+		padding: 0;
+		margin: 0;
+	}
 
-.bxslider li{
-    width: 50vw !important;
-  }
+	.left{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items:flex-end;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
 
-.squish{
-	width: 100%;
+	.none{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		alignt-items: flex-end;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
+
+	.hide{
+		display: inline-block;
+	}
+
+	/* featured products and bx-slider */
+
+	.craftdescribe{
+		font-size: 1.2rem;
+	}
+
+	.bx-clone {
+	    display: inline-block;
+	}
+
+	.bxslider li{
+	    width: 50vw !important;
+	}
+
+	.squish{
+		width: 100%;
+	}
+
+	/* Email */
+
+	[type="submit"] {
+		right: 23.85%;
+    	margin-top: 1.1em;
+	}
+
+	[type="email"] {
+		width: 50%;
+	}
 }
 
 /* desktop breakpoint */
 
 @media screen and (min-width: 1240px){
 
-html{ 
-font-size: 16px;
-}
+	/* content */
 
-.body {
-	max-width: 1240px;
-}
+	html{ 
+	font-size: 16px;
+	}
 
-.logo img {
-  max-width: 160px;
-}
+	.containter {
+		max-width: 1240px;
+	}
 
-.cart {
-  width: 62px;
-}
+	/* header */
 
-.total-items {
-  font-size: .9rem;
-  padding-top: 4px;
-  height: 24px;
-  width: 24px;
-}
+	.logo img {
+	  max-width: 160px;
+	}
 
-.main-navigation li {
-  font-size: 1rem;
-  margin: 1rem;
-}
+	.cart {
+	  width: 62px;
+	}
 
-.banner {
-	margin-top: 97px;
-}
+	.total-items {
+	  font-size: .9rem;
+	  padding-top: 4px;
+	  height: 24px;
+	  width: 24px;
+	}
 
-.grid{
-	max-width: 1240px;
-}
+	.main-navigation li {
+	  font-size: 1rem;
+	  margin: 1rem;
+	}
 
-.bxslider li{
-    width: 25vw !important;
-  }
+	.banner {
+		margin-top: 97px;
+	}
 
-.squish{
-	width: 60%;
-	text-align: center;
-	margin: 0 auto;
-}
+	/*products */
 
-.up {
-  	font-size: 1.2rem;
-  }
+	.category-name {
+	  font-size: 2.5rem;
+	}
 
+	/*featured products & bx-slider*/
+
+	.bxslider li{
+	    width: 25vw !important;
+	}
+
+	.squish{
+		width: 60%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.up {
+	  	font-size: 1.2rem;
+	}
+
+	/* Email */
+
+	[type="email"] {
+		width: 33%;
+	}
+
+	[type="submit"] {
+		right: 32.65%;
+		margin-top: 1.05em;
+	}
 }

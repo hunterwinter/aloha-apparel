@@ -1,8 +1,7 @@
-//interactive form
+/* interactive form */
+
 $(function(){
-
  $('.infosubmit').on('submit', function(event) {
-
      event.preventDefault();
      if ($('input[type="email"]').val().length !== 0 ) {
         alert('Thank you for subscribing!');
@@ -11,11 +10,9 @@ $(function(){
      {
         alert('Please enter a valid email address.');
      }
-
   });
 
-
-/*slide plug*/
+/* slide plug */
 
 $('.bxslider').bxSlider({
     controls: false,
@@ -29,27 +26,7 @@ $('.bxslider').bxSlider({
     });
 });
 
-// $('.listnav a').click(function(){
-
-//     $('html, body').animate({
-//         scrollTop: $( $.attr(this, 'href') ).offset().top
-//     }, 400);
-//     return false;
-
-//   });
-
-// $('a[href^="#"]').on('click',function (e) {
-//         e.preventDefault();
-
-//         var $target = $(this.hash);
-
-//         $('html, body').stop().animate(
-//         {
-//             'scrollTop': $target.offset().top - ($('header').height())
-//         },
-//         900, 'swing');
-//     });
-
+/* smooth scrolling implementation */
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -58,13 +35,10 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top - 100
+          scrollTop: target.offset().top - 98
         }, 1300);
         return false;
       }
     }
   });
-});
-
-   
-	
+});	
