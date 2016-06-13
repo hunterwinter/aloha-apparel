@@ -6,9 +6,9 @@ A single page E-commerce site for 'Aloha Apparel Company'.
 
 ##Languages Used
 
--HTML5 and CSS3
--JQuery
--mobile-first layout
+- HTML5 and CSS3
+- JQuery
+- mobile-first layout
 
 ##Reflections
 
